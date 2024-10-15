@@ -1,0 +1,48 @@
+
+
+table
+{
+  border-style: solid;
+  border-color: grey;
+}
+h1 {
+  text-align: center;
+  background-color: white;
+}
+h2
+{
+  text-align: center;
+  font-style: italic;
+  padding: 5px;
+  background-color: white;
+}
+
+nav { 
+  
+  background-color: pink;
+  font-style: italic;
+  text-align: center;
+  
+}
+
+
+footer {
+  text-align: center;
+}
+
+h1:hover{
+        color: hotpink;
+        }
+h2:hover{
+        color:hotpink;
+        }
+h4:hover{
+        color:hotpink;
+        }
+form {
+  text-align: center;
+}
+#prize {
+  background-color: white;
+  text-align: center;
+}

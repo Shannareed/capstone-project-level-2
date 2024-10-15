@@ -1,0 +1,57 @@
+
+nav { 
+  
+  background-color: pink;
+  font-style: italic;
+  text-align: center;
+  
+}
+footer {
+  text-align: center;
+}
+
+#email {
+  width: 250px;
+}
+
+#comments {
+  width: 250px;
+}
+
+#owner {
+  width: 300px;
+  height: 300px;
+}
+
+a:link {
+  color: green;
+}
+img {
+  height: auto;
+  max-width: 100%;
+}
+#header {
+  height: 200px;
+  width: 1500px;
+}
+#mail{
+  width:50%;
+}
+#name{
+  width:50%;
+}
+#last{
+  width:50%;
+}
+#loc
+{
+  text-align:center;
+}
+#social
+{
+  text-align: center;
+}
+#links
+{
+  text-align: center;
+}

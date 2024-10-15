@@ -1,0 +1,54 @@
+body {
+  
+  width: 100vw;  /* The element will always be 80% of the viewport width */
+  height: 50vw; /* The element's height will adjust according to the viewport width */
+  
+
+
+}
+nav { 
+  
+  background-color: pink;
+  font-style: italic;
+  text-align: center;
+  
+}
+h2 {
+  text-align: center;
+}
+footer {
+  text-align: center;
+}
+img {
+  height: auto;
+  max-width: auto;
+}
+#header {
+  height: 200px;
+  width: 1500px;
+}
+ 
+ #username {
+  width:100%;
+}
+#message {
+  width:100%;
+}
+#password {
+  width:100%;
+}
+#un {
+  width:100%;
+}
+#pw {
+  width:100%;
+}
+h3:hover{
+        color: hotpink;
+        }
+h6:hover{
+        color:hotpink;
+        }
+h2:hover{
+        color:hotpink;
+        }
