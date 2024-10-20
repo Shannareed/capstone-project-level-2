@@ -1,1 +1,31 @@
-underconstruction
+<!doctype html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.jsdelivr.net/npm/image-map-resizer@1.0.10/js/imageMapResizer.min.js"></script>
+    <title>Image Map Example</title>
+  </head>
+  <body>
+    <header>
+      <nav></nav>
+    </header>
+    <main>
+      <img
+        width="100%" height="100%"
+        usemap="#my-image-map"
+        src="https://cdn.glitch.global/bca6a6f9-ba52-47b4-9952-069ebbf68463/Image%2010-20-24%20at%208.37%E2%80%AFAM.jpeg?v=1729431865238"
+        alt="Boutique Image"
+      />
+      <map name="my-image-map">
+        <area coords="666,459,1090,530" shape="rect" href="index.html" alt="Home" />
+        <area coords="1800,800,2125,881" shape="rect" href="contact.html" alt="Contact" />
+        <area coords="180,915,860,1330" shape="rect" href="handbag.html" alt="Handbags" />
+        <area coords="2300,240,2778,659" shape="rect" href="handbag.html" alt="Another Handbag Section" />
+      </map>
+    </main>
+    <footer></footer>
+    
+    <script>
+      imageMapResize(); // Make the image map responsive
+    </script>
+  </body>
+</html>
