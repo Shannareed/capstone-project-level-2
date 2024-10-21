@@ -156,18 +156,23 @@
             </div>
           </div>
           <div class="col">
-            <form>
+            <form onsubmit="ProcessBoss(event)">
               <i> Join our Mailing List! For Coupons</i><br />
-              Email:<br /><input id="email" /> <br /><button
+              Email:<br />
+              <input required placeholder="email" id="email" /> <br />
+              <button
                 type="button"
                 class="btn btn-outline-primary"
               >
                 Join</button
               ><br />COMMENTS:<br />
-              First Name:<label for="name"></label><input id="name" />
-              <br />Last Name:<label for="last"></label
-              ><input id="last" /><br />
-              Email:<label for="mail"></label><input id="mail" />
+              <label for="name"></label>
+              <input required placeholder="First Name" id="name" />
+              <br>
+              <label for="last"></label>
+              <input id="last" required placeholder="Last Name" /><br />
+              <label for="mail"></label>
+              <input required placeholder="Email@mail.com" id="mail" />
               <textarea id="comments">Type Comments here</textarea><br />
 
               <button type="button" class="btn btn-outline-primary">
