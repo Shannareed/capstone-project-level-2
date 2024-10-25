@@ -160,14 +160,17 @@
               <br />COMMENTS:<br />
               <label for="name"></label>
               <input required placeholder="First Name" id="name" />
-              <br>
+              <br />
               <label for="last"></label>
               <input id="last" required placeholder="Last Name" /><br />
               <label for="mail"></label>
-              <input required placeholder="Email@mail.com" id="mail" />
-              <textarea id="comments">Type Comments here</textarea><br />
+              <input type="email" required id="email" placeholder="Email@Mail.com"><br>
+              
 
-             <input type="submit" onclick="contact('Thank You For Your Comments')">
+              <input
+                type="submit"
+                onclick="contact('Thank You For Your Comments')"
+              />
             </form>
           </div>
         </div>
