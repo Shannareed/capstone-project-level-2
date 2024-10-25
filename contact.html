@@ -157,8 +157,8 @@
           </div>
           <div id="contactTag" class="col">
             <form onsubmit="ProcessBoss(event)">
-              <br />COMMENTS:<br />
-              <label for="name"></label>
+              <br /><h4>
+              Comments:</h4>          <label for="name"></label>
               <input required placeholder="First Name" id="name" />
               <br />
               <label for="last"></label>
@@ -173,17 +173,23 @@
                 type="submit"
                 onclick="contact('Thank You For Your Comments')"
               />
+              
             </form>
             
+            <div id="appointmentTag">
+              
             
             <h4>
               Want to speak on the phone?
             </h4><br>
+              <form>
             <input required placeholder="Name" for="name"><br>
-            <input required type="tel" pattern="[0-9]{3}-[0-9}{3}-[0-9]{4}" placeholder="Phone Number"><br>
+            <input required type="tel" pattern="[0-9]{3}-[0-9}{3}-[0-9]{4}" placeholder="###-###-####"><br>
             <input required type="datetime-local">
-            <input type="submit">
-
+            <input type="submit" onclick="appointment('Appointment Set')">
+              </form>
+              
+            </div>
 
             
             
