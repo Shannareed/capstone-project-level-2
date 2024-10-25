@@ -11,3 +11,7 @@ document.write(message);
 function contact(message) {
 contactTag.innerHTML = message;
 }
+
+function Join(message) {
+contactTag.innerHTML = message;
+}
