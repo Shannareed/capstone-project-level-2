@@ -10,3 +10,7 @@ document.write(message);
 function contact(message) {
 contactTag.innerHTML = message;
 }
+
+function appointment(message) {
+  appointmentTag.innerHTML = message;
+}
